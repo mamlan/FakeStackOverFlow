@@ -1,0 +1,502 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 100%;
+  background-color: gray;
+  align-items: center;
+  border-bottom: solid;
+ }
+ .header input[type="text"] {
+  width: 128px;
+  height: 46px;
+ }
+ 
+ 
+ .welcomeBody, .login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ 
+ /* Form Styles */
+ .welcome, .login-form form {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ 
+ .welcome, .login-form p {
+  margin-bottom: 8px;
+ }
+ 
+ 
+ .welcome, .login-form input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+ 
+ 
+ .login-button, .postBtn, .welcome-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+ .welcome-page{
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+ }
+ .welcome-button{
+  width: 200px;
+ }
+ .login-button, .postBtn:hover  {
+  background-color: #45a049;
+ }
+ 
+ 
+ /* Page Specific Styles */
+ .login-form, .welcome {
+  text-align: center;
+ }
+ 
+ 
+ a {
+  color: #007bff;
+  text-decoration: none;
+ }
+ 
+ 
+ a:hover {
+  text-decoration: underline;
+ }
+ 
+ 
+ .irr{
+  flex:1;
+ }
+ .title{
+  flex: 2;
+  text-align: center;
+ }
+ .searchbar{
+  /* position: absolute; */
+  flex: 1;
+ }
+ 
+ 
+ .menu{
+  width: 15%;
+  height: 100%;
+  border-right: dotted;
+  float: left;
+  padding-bottom: 100%;
+ }
+ 
+ 
+ .menu-link{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+ }
+ 
+ 
+ #questions-link, #tags-link, #userprofile-link{
+  padding: 20px;
+  font-size: 15px;
+  border: thin;
+  color:  blue;
+  width:100%;
+ }
+ #question-link{
+  background-color: lightgrey;
+ }
+ 
+ 
+ #tags-link{
+  background-color: white;
+ }
+ #userprofile-link{
+  background-color: white;
+ }
+ .main-header {
+  margin-left: 15%;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .tagsRow{
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+ 
+ .tags-btn{
+  width: 250px;
+  height: 120px;
+  border: dotted;
+  margin-top: 20px;
+  margin-right: auto;
+ }
+ 
+ 
+ .upper-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ }
+ 
+ 
+ #ask-button, #ans-ask, #cancelq, #updateq, #editAnswer, #deleteAnswer, #deleteq , #deletet {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 20px;
+ }
+ 
+ #cancelq, #updateq,#editAnswer, #deleteAnswer {
+  size: 100px;
+ }
+
+ 
+ .filter-buttons{
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: dotted;
+  padding-bottom: 10px;
+ 
+ 
+ }
+ 
+ 
+ .filter-buttons button {
+  background-color: whitesmoke;
+  color: black;
+  border: solid 2px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+ }
+ 
+ 
+ #question-counter {
+  padding-right: 66%;
+  font-weight: bold;
+ }
+ 
+ 
+ .metadata-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ 
+ 
+ .left-section {
+  flex: 1;
+  text-align: left;
+  padding-left: 10px;
+ }
+ 
+ 
+ .middle-section {
+  flex: 1;
+  text-align: center;
+ }
+ 
+ 
+ .right-section {
+  flex: 1;
+  text-align: right;
+  padding-right: 10px;
+ }
+ .question-button{
+ 
+ 
+  border: none;
+  outline: none;
+  background-color: white;
+  color: blue;
+  font-size: 16px;
+  padding: 0;
+  cursor: pointer;
+ }
+ 
+ 
+ .ansTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ 
+ .answers-count-container {
+  margin-right: 10%; /* Adjust as needed for spacing between h3 and h2 */
+ }
+ 
+ 
+ .description {
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+ 
+ .middle-text{
+  flex-grow: 1; /* Takes up remaining space */
+ }
+ 
+ 
+ /* Optional: Adjust styling as needed */
+ .views-cont,
+ .metadata-cont {
+  width: 20%;
+ }
+ 
+ 
+ .middle-text {
+  max-width: 600px;
+ }
+ 
+ 
+ .answer-cont{
+  border-bottom: dotted;
+  /*margin-left: 15%;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ }
+ 
+ 
+ .right-side {
+  flex: 1;
+ }
+ 
+ 
+ .left-side {
+  flex: 3;
+ }
+ 
+ 
+ #answer-button{
+ 
+ 
+  padding: 10px;
+  border: thin;
+  background-color: #2055c0;
+  margin-top: 25px;
+  color: white;
+ }
+ 
+ 
+ 
+ 
+ .question-form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 45%;
+ }
+ 
+ 
+ label{
+  font-size: 25px;
+  padding-bottom: 10px;
+ }
+ #postq{
+ 
+ 
+  max-width: 150px;
+  padding: 10px;
+  border: thin;
+  background-color: #2055c0;
+  margin-top: 25px;
+  color: white;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .welcome-button{
+ 
+ 
+  display: block;
+  margin: 10px auto;
+  background-color: #007BFF;
+  padding: 20px;
+ 
+ 
+ }
+ 
+ 
+ #logout{
+  display: block;
+  margin: 10px auto;
+  background-color: #007BFF;
+  padding: 10px;
+  color: white;
+ }
+ 
+ 
+ .prev-button, .next-button{
+ 
+ 
+  display: block;
+  margin: 10px auto;
+  background-color: #007BFF;
+  padding: 10px;
+  color: white;
+ }
+ 
+ 
+ .page-buttons {
+  display: flex; /* Use flex container */
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Align items vertically in the center */
+ }
+ 
+ 
+ .answers{
+  overflow: auto;
+  border-top: dotted;
+  }
+ 
+ 
+ li {list-style-type: none;}
+ 
+ 
+ .voting-container {
+  flex: 0; /* To keep the voting container width only as wide as its contents */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+ 
+ .voting-button{
+ 
+ 
+  display: block;
+  margin: 10px auto;
+  background-color: #007BFF;
+  padding: 10px;
+  color: white;
+  }
+  .voting-button1 {
+    background-color: #4caf50; /* Change color to match your design */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+ 
+  .comment-button{
+ 
+    background-color: #007BFF;
+    color: white;
+    margin: 0 10px;
+   }
+   .comment-buttons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; /* Add space below the buttons */
+  }
+  .comment-input-container {
+    display: flex;
+    justify-content: center; /* Center the input bar horizontally */
+    margin-top: 20px; /* Add space above the input bar */
+  }
+  .comment-input {
+    /* This assumes you have a class for your input already. */
+    padding: 10px 15px;
+    margin-right: 10px; /* Add space between the input and the button */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%; /* Adjust as necessary */
+  }
+  
+  /* Style for the 'Add Comment' button next to the input */
+  .add-comment-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .comments-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+  }
+  
+
+   .comment-item {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space between the text and the voting button */
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+  }
+  .comment-metadata {
+    display: block; 
+    margin-bottom: 5px; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    margin-right: 20px; 
+    text-align: center;
+    width: 220px;
+    
+  }
+  
+  .comment-metadata strong {
+    display: block;
+
+  }
+  
+  .comment-text {
+    flex: 2;
+    flex-grow: 1; 
+    margin-left: 20px; 
+  }
+  .comment-metadata .username {
+    text-align: center; 
+    display: block; 
+    margin-bottom: 5px;
+  }
+  .username {
+    font-weight: bold; 
+    margin-bottom: 5px; 
+  }
+
+  .comment-text, .comment-metadata {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+.comment-title{
+
+  text-align: center;
+}
+ 
+ 
