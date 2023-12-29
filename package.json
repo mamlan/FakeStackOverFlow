@@ -1,0 +1,17 @@
+{
+  "name": "fakestackoverflow",
+  "version": "1.0.0",
+  "homepage": "https://gitname.github.io/react-gh-pages",
+  "description": "Introduction  Welcome to the FakeStackOverflow! This application provides a platform for users to engage in discussions in a Q&A format. Registered users can ask questions, provide answers, upvote/downvote, comment, and browse various tags associated with questions. Users have reputation that can unlock and lock certain features. We intend to create a friendly community forum for all technical questions.",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
