@@ -28,6 +28,7 @@ Questions can be tagged with relevant keywords. Tags help in categorizing conten
 
 ### User Profile
 Each user has a profile page that displays their activity on the platform. Users can see the questions they've asked, answers they've provided, and tags associated with their questions
+<img src='./images/profile.gif' title='Tags Walkthrough' width=''>
 
 ### Search
 Efficiently find relevant content using the search feature. Users can search with tags or keywords for various questions.
